@@ -25,9 +25,8 @@ with open("key.txt", 'r') as outfile:
 byte_array = base58.b58decode(privkey)
 account = Keypair().from_secret_key(byte_array)
 
-api_endpoint4 = "https://free.rpcpool.com/"
-api_endpoint3 = "https://ssc-dao.genesysgo.net/"
-api_endpoint2 = "https://shy-wild-resonance.solana-mainnet.quiknode.pro/b71b11f1e1bb100d98f6340bc4ac8cd3c4aa77c8/"
+api_endpoint3 = "https://free.rpcpool.com/"
+api_endpoint2 = "https://ssc-dao.genesysgo.net/"
 api_endpoint = "https://solana-api.projectserum.com/"
 
 
